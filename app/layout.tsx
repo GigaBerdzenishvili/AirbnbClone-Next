@@ -1,6 +1,7 @@
 // Components
 import Navbar from "./components/NavBar/Navbar";
 import ClientOnly from "./components/ClientOnly";
+import Modal from "./components/modals/Modal";
 // styles fonts
 import { Nunito } from "next/font/google";
 import "./globals.css";
@@ -23,6 +24,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={font.className}>
         <ClientOnly>
+          <Modal actionLabel="Submit" title="giga" isOpen />
           <Navbar />
         </ClientOnly>
         {children}
