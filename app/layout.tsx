@@ -1,10 +1,12 @@
 // Components
 import Navbar from "./components/NavBar/Navbar";
 import ClientOnly from "./components/ClientOnly";
-import Modal from "./components/modals/Modal";
+
+import RegisterModal from "./components/modals/RegisterModal";
 // styles fonts
 import { Nunito } from "next/font/google";
 import "./globals.css";
+import ToasterProvider from "./providers/ToasterProvider";
 
 export const metadata = {
   title: "Airbnb",
@@ -24,7 +26,8 @@ export default function RootLayout({
     <html lang="en">
       <body className={font.className}>
         <ClientOnly>
-          <Modal actionLabel="Submit" title="giga" isOpen />
+          <ToasterProvider />
+          <RegisterModal />
           <Navbar />
         </ClientOnly>
         {children}
