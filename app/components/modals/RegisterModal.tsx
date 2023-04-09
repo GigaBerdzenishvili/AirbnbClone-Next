@@ -95,7 +95,7 @@ const RegisterModal = () => {
         icon={FcGoogle}
       />
       <Button
-        onClick={() => {}}
+        onClick={() => signIn("google")}
         outline
         label="Continue with GitHub"
         icon={AiFillGithub}
