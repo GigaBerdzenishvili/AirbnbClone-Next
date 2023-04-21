@@ -16,7 +16,7 @@ import useRegisterModal from "@/app/hooks/useRegisterModal";
 import axios from "axios";
 
 // Icons
-import { AiFillGithub } from "react-icons/Ai";
+import { AiFillGithub } from "react-icons/ai";
 import { FcGoogle } from "react-icons/fc";
 
 import toast from "react-hot-toast";

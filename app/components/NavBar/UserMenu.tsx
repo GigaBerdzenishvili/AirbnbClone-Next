@@ -11,7 +11,7 @@ import Avatar from "../Avatar";
 import MenuItem from "./MenuItem";
 
 // Icons
-import { AiOutlineMenu } from "react-icons/Ai";
+import { AiOutlineMenu } from "react-icons/ai";
 import { signOut } from "next-auth/react";
 import { SafeUser } from "@/app/types";
 import useRentModal from "@/app/hooks/useRentModal";
