@@ -2,7 +2,7 @@
 
 AirbnbClone-Next is a web application built with Next.js and TypeScript that allows users to browse, search, and book properties for rent. It also allows property owners to create and manage their own listings. (built for learning purposes)
 
-##Features
+## Features
 
 - User authentication with email, Google, and GitHub.
 - Property search by location, price.
